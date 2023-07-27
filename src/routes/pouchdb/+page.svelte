@@ -32,7 +32,7 @@
         const local_db = new PouchDB('my_database');
 		if (local_db) local_db_status = 'connected'
 
-		const remote_db = new PouchDB('http://admin:butt@192.168.1.224:5984/shop1')
+		const remote_db = new PouchDB('http://admin:butt@w1.solidsoft:2053/shop1')
 		if (remote_db) remote_db_status = 'connected'
 		console.log('remote_db', remote_db)
 
